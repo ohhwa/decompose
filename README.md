@@ -42,21 +42,25 @@ Hangul consists of 19 initial consonants, 21 medial vowels, and 28 final consona
 #### Datasets
 
 ```
-python datasets/font2img.py --fonts_dir [font/path] --output_dir [output/path]
+python datasets/font2img.py --txt_dir datasets/characters/50characters.txt --fonts_dir datasets/fonts/source --output_dir datasets/images/source --start_idx 0
+
+python datasets/font2img.py --txt_dir datasets/characters/50characters.txt --fonts_dir datasets/fonts/target --output_dir datasets/images/target --start_idx 1
+
 python separate.py
+
 python combine.py
 ```
 
 #### Train
 
 ```
-python train.py
+python main.py --mode train --epochs 1000 --output_dir trained_model 
 ```
 
 #### Generate
 
 ```
-python test.py
+python main.py --mode test --checkpoint trained_model
 ```
 
 <br/>
