@@ -15,25 +15,28 @@ Hangul consists of 19 initial consonants, 21 medial vowels, and 28 final consona
 
 <div align='center'> 
 
-[Table 1] Korean Components
+Table 1. Korean Components
 <img src='assets/korean_components.png'/>
 
 <br/>
 
-[Table 2] Korean Combination Types
+Table 2. Korean Combination Types
 <img src='assets/korean_combination_types.png'/>
 
 </div>
 
 <br/>
 
-## Method 
+## Architecture
 
 <div align='center'>
-
-<img src='assets/architecture.png' />
-[Figure 1] Architecture Overview
+<img src='assets/architecture_v2.png' />
+Figure 1. Architecture Overview
 </div>
+
+<br/>
+
+## Method 
 
 <br/>
 
